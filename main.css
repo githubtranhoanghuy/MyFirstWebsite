@@ -1,0 +1,74 @@
+/* Shift Alt A: comment
+Ctrl /: comment
+Ctrl Shift [: Short comment
+Ctrl Shift K: Delete Row
+Alt ->:Move
+*/
+/* TOP BAR LAYYOUT */
+.item {
+    display: inline-block;
+    margin: 15px;
+}
+
+.list {
+    padding-inline-start: 0px;
+
+}
+
+.top_bar {
+    justify-content: space-between;
+}
+
+/* FORM LOGIN LAYOUT */
+.form {
+    max-width: 5000px;
+}
+
+.form-row {
+    display: flex
+}
+
+.input {
+    flex: 1;
+    max-width: 600px;
+}
+
+.label {
+    min-width: 100px;
+}
+
+/* COLLUMN LAYOUT */
+.collumn-layout {
+    display: flex;
+}
+
+.collumn {
+    flex: 1;
+}
+
+.s2 {
+    flex: 2
+}
+
+/* FEATURE LAYOUT  */
+.feature-layout {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feature-item {
+    flex-basis: 30%;
+
+}
+
+.feature-item:nth-child(1) {
+    background-color: bisque;
+}
+
+.feature-item:nth-child(2) {
+    background-color: aqua;
+}
+
+.feature-item:nth-child(3) {
+    background-color: blueviolet;
+}
